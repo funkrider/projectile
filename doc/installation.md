@@ -62,8 +62,8 @@ Finally add this to your Emacs config:
 
 ```el
 (projectile-mode +1)
-(define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
-(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+(define-key map (kbd "s-p") 'projectile-command-map)
+(define-key map (kbd "C-c p") 'projectile-command-map)
 ```
 
 Those keymap prefixes are just a suggestion. Feel free to put there whatever works best for you.
